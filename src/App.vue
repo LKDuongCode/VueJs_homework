@@ -1,14 +1,8 @@
 <script setup>
-import { reactive } from 'vue'
+import { computed, reactive } from 'vue'
 
 // mảng chứa task
-const tasks = reactive([
-  {
-    id: 1,
-    name: 'do laundry',
-    status: false
-  }
-])
+const tasks = reactive([])
 
 //thêm mới
 const createNewTask = reactive({
@@ -17,34 +11,58 @@ const createNewTask = reactive({
   status: false
 })
 
-// const handleAdd = ()=>{
+const handleAddTask = () => {
+  if (createNewTask.name !== '') {
+    // cần clone lại nếu không sẽ tham chiếu đến biến gốc
+    tasks.push({ ...createNewTask })
+    createNewTask.id = Math.floor(Math.random() * 9999)
+    createNewTask.name = ''
+    createNewTask.status = false
+  }
+}
 
-// }
+//xóa
+const handleDelete = (id) => {
+  const index = tasks.findIndex((task) => task.id === id)
+  if (index !== -1) {
+    tasks.splice(index, 1) // xóa phần tử ở vị trí index
+  }
+}
+
+//lọc các task đã hoàn thiện
+const completedTask = computed(() => {
+  const completed = tasks.filter((task) => task.status)
+  return completed
+})
 </script>
 
 <template>
+  <h3 style="font-family: monospace; color: burlywood; font-size: xx-large">Todo List</h3>
   <main class="container">
     <div class="addContainer">
       <input
         type="text"
         class="addInput"
+        @keyup.enter="handleAddTask"
         placeholder="Add a new task..."
         v-model="createNewTask.name"
       />
-      <button class="addBtn">Add task</button>
+      <button class="addBtn" @click="handleAddTask">Add task</button>
     </div>
-    <div class="render-ctn">
+    <div class="render-ctn" v-if="tasks.length > 0">
       <div class="render-item" v-for="(task, index) in tasks" :key="index">
         <div class="checkItem">
-          <input type="checkbox" :checked="task.status" />
-          <p>{{ task.name }}</p>
+          <input type="checkbox" :checked="task.status" v-model="task.status" />
+          <p v-if="!task.status">{{ task.name }}</p>
+          <s v-if="task.status">{{ task.name }}</s>
         </div>
-        <button class="deleteCpn">Delete</button>
+        <button class="deleteCpn" @click="handleDelete(task.id)">Delete</button>
       </div>
     </div>
+    <div style="text-align: center" v-if="tasks.length === 0">There are no tasks to do yet...</div>
     <div class="footer">
       <span>There are </span>
-      <span class="completedTask">5/10 </span>
+      <span class="completedTask">{{ completedTask.length }} / {{ tasks.length }} {{ '   ' }}</span>
       <span>task completed</span>
     </div>
   </main>
@@ -106,6 +124,8 @@ const createNewTask = reactive({
   display: flex;
   flex-direction: column;
   gap: 10px;
+  max-height: 400px;
+  overflow-y: auto;
 }
 
 .deleteCpn {
