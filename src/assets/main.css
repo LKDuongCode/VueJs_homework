@@ -1,0 +1,55 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Định nghĩa kiểu dáng cho các thẻ tiêu đề */
+h1 {
+  @apply text-4xl font-bold mb-4; /* Kiểu dáng cho h1 */
+}
+
+h2 {
+  @apply text-3xl font-semibold mb-3; /* Kiểu dáng cho h2 */
+}
+
+h3 {
+  @apply text-2xl font-semibold mb-2; /* Kiểu dáng cho h3 */
+}
+
+h4 {
+  @apply text-xl font-semibold mb-2; /* Kiểu dáng cho h4 */
+}
+
+h5 {
+  @apply text-lg font-semibold mb-1; /* Kiểu dáng cho h5 */
+}
+
+h6 {
+  @apply text-base font-semibold mb-1; /* Kiểu dáng cho h6 */
+}
+
+button {
+  @apply bg-slate-500 px-5;
+}
+
+input {
+  outline: none;
+  color: #333;
+  padding: 0 4px;
+}
+
+/* custom */
+.setup-border {
+  @apply border-solid border-2;
+}
