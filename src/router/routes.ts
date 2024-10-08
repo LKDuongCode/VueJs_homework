@@ -1,6 +1,7 @@
 import { homeworkOne } from './hw1_hw2'
 import { homeworkFive } from './hw5'
 import { homeworkSix } from './hw6'
+import { homeworkSeven } from './hw7'
 import { notFound } from './not_found'
 
 export const routes = [
@@ -14,5 +15,6 @@ export const routes = [
   //hw4
   notFound,
   ...homeworkFive,
-  ...homeworkSix
+  ...homeworkSix,
+  ...homeworkSeven
 ]
