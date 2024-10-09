@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "p_name": "Banana",
+      "p_img": "https://nutritionsource.hsph.harvard.edu/wp-content/uploads/2018/08/bananas-1354785_1920-768x512.jpg",
+      "p_price": 100,
+      "p_quantity": 20
+    },
+    {
+      "id": 2,
+      "p_name": "Apple",
+      "p_img": "https://cdn.britannica.com/22/187222-050-07B17FB6/apples-on-a-tree-branch.jpg",
+      "p_price": 150,
+      "p_quantity": 15
+    },
+    {
+      "id": 3,
+      "p_name": "Orange",
+      "p_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR1d55KRpVZtNZDCGxi193hqjtIhz1Nb-OBQ&s",
+      "p_price": 120,
+      "p_quantity": 30
+    },
+    {
+      "id": 4,
+      "p_name": "Grapes",
+      "p_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTUNelf6LWd4fNNrJDDXZRgxv9n4JnMDkx3Q&s",
+      "p_price": 200,
+      "p_quantity": 10
+    },
+    {
+      "id": 5,
+      "p_name": "Pineapple",
+      "p_img": "https://images.immediate.co.uk/production/volatile/sites/30/2024/06/Pineapple-01-5562ee3.jpg",
+      "p_price": 250,
+      "p_quantity": 12
+    },
+    {
+      "id": 6,
+      "p_name": "Mango",
+      "p_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVA0AhM7HRYe5Yin23yl4YppEmAfgPX1bzvA&s",
+      "p_price": 180,
+      "p_quantity": 25
+    },
+    {
+      "id": 7,
+      "p_name": "Strawberry",
+      "p_img": "https://cdn.nyallergy.com/wp-content/uploads/square-1432664914-strawberry-facts1-1200x1200.jpeg",
+      "p_price": 300,
+      "p_quantity": 18
+    },
+    {
+      "id": 8,
+      "p_name": "Watermelon",
+      "p_img": "https://www.watermelon.org/wp-content/uploads/2019/10/Watermelon-cuts-24-1.jpg",
+      "p_price": 120,
+      "p_quantity": 22
+    },
+    {
+      "id": 9,
+      "p_name": "Blueberry",
+      "p_img": "https://otiv.com.vn/files/image/2316-blueberries.jpg",
+      "p_price": 350,
+      "p_quantity": 28
+    },
+    {
+      "id": 10,
+      "p_name": "Peach",
+      "p_img": "https://blog.sakura.co/wp-content/uploads/2022/03/shutterstock_675217411-1.png",
+      "p_price": 160,
+      "p_quantity": 10
+    },
+    {
+      "p_img": "https://i1.sndcdn.com/avatars-y64RZkcXu173F7sm-2hMcyQ-t240x240.jpg",
+      "p_name": "icon vui vẻ",
+      "p_price": 100,
+      "p_quantity": 1,
+      "id": 11
+    }
+  ]
+}
