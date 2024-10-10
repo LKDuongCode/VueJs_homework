@@ -1,0 +1,76 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "s_name": "John Doe",
+      "s_email": "john.doe@example.com",
+      "s_address": "123 Main St, Springfield",
+      "s_phone": "124567890",
+      "s_status": true,
+      "s_created_at": "2024/10/01"
+    },
+    {
+      "id": 2,
+      "s_name": "Jane Smith",
+      "s_email": "jane.smith@example.com",
+      "s_address": "456 Elm St, Springfield",
+      "s_phone": "2345678901",
+      "s_status": true,
+      "s_created_at": "2024/10/02"
+    },
+    {
+      "id": 3,
+      "s_name": "Alice Johnson",
+      "s_email": "alice.johnson@example.com",
+      "s_address": "789 Pine St, Springfield",
+      "s_phone": "3456789012",
+      "s_status": false,
+      "s_created_at": "2024/10/03"
+    },
+    {
+      "id": 4,
+      "s_name": "Bob Brown",
+      "s_email": "bob.brown@example.com",
+      "s_address": "321 Oak St, Springfield",
+      "s_phone": "4567890123",
+      "s_status": true,
+      "s_created_at": "2024/10/04"
+    },
+    {
+      "id": 5,
+      "s_name": "Charlie Davis",
+      "s_email": "charlie.davis@example.com",
+      "s_address": "654 Cedar St, Springfield",
+      "s_phone": "567901234",
+      "s_status": false,
+      "s_created_at": "2024/10/05"
+    },
+    {
+      "s_address": "1234",
+      "s_created_at": "10/10/2024",
+      "s_email": "dd@gmail.com",
+      "s_name": "dd",
+      "s_phone": "123456789",
+      "s_status": true,
+      "id": 6
+    },
+    {
+      "s_address": "23456",
+      "s_created_at": "10/10/2024",
+      "s_email": "sssssss@gmail.com",
+      "s_name": "dduong",
+      "s_phone": "123456789",
+      "s_status": true,
+      "id": 7
+    },
+    {
+      "s_address": "ss@gma.com",
+      "s_created_at": "10/10/2024",
+      "s_email": "ss@gma.com",
+      "s_name": "ss@gma.com",
+      "s_phone": "1234567890",
+      "s_status": true,
+      "id": 8
+    }
+  ]
+}
