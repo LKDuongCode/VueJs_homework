@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "p_title": "Khám Phá Thiên Nhiên",
+      "p_img": "https://toquoc.mediacdn.vn/280518851207290880/2023/12/24/ht07899-1-17034037531591036221730.jpg",
+      "p_created_at": "2023-10-01",
+      "p_status": true,
+      "p_content": "Thiên nhiên mang đến cho chúng ta sự bình yên và tươi mới. Hãy cùng nhau khám phá vẻ đẹp của nó."
+    },
+    {
+      "id": 2,
+      "p_title": "Cẩm Nang Du Lịch",
+      "p_img": "https://statics.vinpearl.com/dia-diem-du-lich-nghe-an-ha-tinh-1.jpg",
+      "p_created_at": "2023-10-02",
+      "p_status": true,
+      "p_content": "Du lịch không chỉ là khám phá địa điểm mới mà còn là trải nghiệm văn hóa độc đáo. Đừng quên ghi lại những khoảnh khắc đẹp."
+    },
+    {
+      "id": 3,
+      "p_title": "Sống Khỏe Mỗi Ngày",
+      "p_img": "http://nutri100.com.vn/demowebthang012019/lantrinh/upload/images/xay-dung-che-do-dinh-duong.jpg",
+      "p_created_at": "2023-10-03",
+      "p_status": true,
+      "p_content": "Một lối sống khỏe mạnh bắt đầu từ những thói quen nhỏ. Hãy chăm sóc sức khỏe của bạn từ bây giờ."
+    },
+    {
+      "id": 4,
+      "p_title": "Nghệ Thuật Nấu Ăn",
+      "p_img": "https://kyotosushi.vn/wp-content/uploads/2019/03/teppanyaki-2.jpg",
+      "p_created_at": "2023-10-04",
+      "p_status": true,
+      "p_content": "Nấu ăn là một nghệ thuật và cũng là một cách thể hiện tình cảm. Hãy thử sức với những công thức mới."
+    },
+    {
+      "id": 5,
+      "p_title": "Công Nghệ Thông Minh",
+      "p_img": "https://danviet.mediacdn.vn/upload/4-2019/images/2019-12-01/Cong-nghe-thong-minh-da-thay-doi-cuoc-song-nhu-the-nao-shutterstock_744456904-660x-1575210445-width660height330.jpg",
+      "p_created_at": "2023-10-05",
+      "p_status": true,
+      "p_content": "Công nghệ đang thay đổi từng ngày. Hãy cập nhật những xu hướng mới nhất để không bị lạc hậu."
+    }
+  ]
+}
