@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Đi chợ",
+      "status": false
+    },
+    {
+      "id": 2,
+      "name": "Học lập trình",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Dọn dẹp nhà cửa",
+      "status": false
+    },
+    {
+      "id": 4,
+      "name": "Đọc sách",
+      "status": true
+    },
+    {
+      "id": 5,
+      "name": "Tập thể dục",
+      "status": false
+    }
+  ]
+}
