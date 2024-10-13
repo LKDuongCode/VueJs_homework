@@ -20,8 +20,18 @@ const lastNameRules = [
 </script>
 
 <template>
-  <div>
-    <v-sheet class="mx-auto" width="300">
+  <div class="grid grid-cols-2 gap-5">
+    <v-sheet class="p-5">
+      <h3>Form</h3>
+      <v-form fast-fail @submit.prevent>
+        <v-text-field v-model="firstName" :rules="firstNameRules" label="First name"></v-text-field>
+
+        <v-text-field v-model="lastName" :rules="lastNameRules" label="Last name"></v-text-field>
+
+        <v-btn class="mt-2" type="submit" block>Submit</v-btn>
+      </v-form>
+    </v-sheet>
+    <v-sheet class="p-5">
       <h3>Form</h3>
       <v-form fast-fail @submit.prevent>
         <v-text-field v-model="firstName" :rules="firstNameRules" label="First name"></v-text-field>
