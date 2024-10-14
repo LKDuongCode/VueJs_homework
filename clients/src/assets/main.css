@@ -1,0 +1,41 @@
+@import "./base.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.setup-border {
+  @apply border-2 border-solid;
+}
+
+input {
+  outline: transparent;
+}
+
+/* Toàn cục cho thanh cuộn */
+::-webkit-scrollbar {
+  width: 8px; /* Độ rộng thanh cuộn dọc */
+  height: 8px; /* Chiều cao thanh cuộn ngang */
+}
+
+::-webkit-scrollbar-track {
+  background: #222; /* Màu nền của track */
+  border-radius: 6px; /* Bo góc cho track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #777; /* Màu của thanh cuộn */
+  border-radius: 6px; /* Bo góc cho thanh cuộn */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999; /* Màu khi hover */
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #666; /* Màu khi nhấn */
+}

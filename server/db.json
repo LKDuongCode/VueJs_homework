@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "p_name": "Smartphone X1",
+      "p_description": "Latest model with high performance.",
+      "p_quantity": 50,
+      "p_img": "https://shopic.mcmcclass.com/42aa1ae14d3f4cb49df40601739647db/20221221/image/922897447523455639/%E4%B8%BB%E5%9B%BE.jpg",
+      "p_price": 699.99,
+      "p_status": true
+    },
+    {
+      "id": 2,
+      "p_name": "Laptop Pro 15",
+      "p_description": "Powerful laptop for professionals.",
+      "p_quantity": 30,
+      "p_img": "https://cdn.tgdd.vn/Files/2021/06/30/1364516/mi-notebook-pro-x-15-oled-1_1280x720-800-resize.jpg",
+      "p_price": 1299.99,
+      "p_status": true
+    },
+    {
+      "id": 3,
+      "p_name": "Wireless Headphones",
+      "p_description": "Noise-cancelling and high-quality sound.",
+      "p_quantity": 100,
+      "p_img": "https://smartones.com.vn/wp-content/uploads/2023/10/aequr-gh02-7.jpg",
+      "p_price": 199.99,
+      "p_status": true
+    },
+    {
+      "id": 4,
+      "p_name": "Smartwatch Series 5",
+      "p_description": "Track your health and stay connected.",
+      "p_quantity": 0,
+      "p_img": "https://cdn.tgdd.vn/hoi-dap/1449920/3-ly-do-apple-watch-series-5-van-rat-dang-mua-trong-nam-07.jpg",
+      "p_price": 299.99,
+      "p_status": false
+    },
+    {
+      "id": 5,
+      "p_name": "Gaming Mouse",
+      "p_description": "High precision for gamers.",
+      "p_quantity": 120,
+      "p_img": "https://static.tandoanh.vn/wp-content/uploads/2021/10/EVGA-X15-MMO-Gaming-Mouse-H1.jpeg.webp",
+      "p_price": 49.99,
+      "p_status": true
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "p_name": "Smartphone X1",
+      "p_description": "Latest model with high performance.",
+      "p_quantity": 50,
+      "p_img": "https://shopic.mcmcclass.com/42aa1ae14d3f4cb49df40601739647db/20221221/image/922897447523455639/%E4%B8%BB%E5%9B%BE.jpg",
+      "p_price": 699.99,
+      "p_status": true,
+      "quantity": 1
+    }
+  ]
+}
